@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="utest Page" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-10-31T19:21:15" hostname="MacBook-Pro-de-Jonny.local" time="0.099">
+<testsuite name="utest Page" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-11-01T16:42:28" hostname="MacBook-Pro-de-Jonny.local" time="0.047">
   <properties/>
-  <testcase name="Create an account on utest.com" classname="utest Page" time="0.099">
+  <testcase name="Create an account on utestcom" classname="utest Page" time="0.047">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@451edafc
+  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@194cebc3
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1577d858
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@9a4326e
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Create an account on utest.com:Given than Jaime wants to create an account on utest.com, he needs to click on the button "Join Today", When he watch the register form to create an account, Then he can fill out the form and after register, he redirects to welcome page
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Create an account on utest.com:Given than Jaime wants to create an account on utest.com, he needs to click on the button "Join Today", When he watch the register form to create an account, Then he can fill out the form and after register, he redirects to welcome page]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Create an account on utest.com:Given than Jaime wants to create an account on utest.com, he needs to click on the button "Join Today", When he watch the register form to create an account, Then he can fill out the form and after register, he redirects to welcome page]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1c7b646b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@513d8a28
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Create an account on utestcom:Given than Jaime wants to create an account on utestcom, he needs to click on the button Join Today, When he watch the register form to create an account, Then he can fill out the form and after register, he redirects to welcome page
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Create an account on utestcom:Given than Jaime wants to create an account on utestcom, he needs to click on the button Join Today, When he watch the register form to create an account, Then he can fill out the form and after register, he redirects to welcome page]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Create an account on utestcom:Given than Jaime wants to create an account on utestcom, he needs to click on the button Join Today, When he watch the register form to create an account, Then he can fill out the form and after register, he redirects to welcome page]
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
           __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
  _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
@@ -20,7 +20,7 @@
 (_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
                                                                                 
 
-TEST PENDING: Create an account on utest.com
+TEST PENDING: Create an account on utestcom
 ---------------------------------------------------------------------------------
 ]]></system-err>
 </testsuite>

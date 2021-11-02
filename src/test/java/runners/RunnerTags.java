@@ -8,9 +8,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/utestPage.feature",
+        features = {"src/test/resources/features/utestPage.feature"},
         tags = "@stories",
-        glue = "co.com.choucair.certification.automationtest.stepdefinitions",
+        glue = {"co.com.choucair.certification.automationtest.stepdefinitions"},
         snippets = SnippetType.CAMELCASE
 )
 public class RunnerTags {
