@@ -5,20 +5,30 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import net.serenitybdd.screenplay.actions.SelectFromOptions;
 import userinterface.SecondForm;
 
 public class FillOutFormLocation implements Task {
-    private Object obj;
 
-    public FillOutFormLocation(Object obj) { this.obj = obj; }
+    private String strCity;
+    private String strZip;
+    private String strCountry;
 
-    public static FillOutFormLocation TheFormTwo(Object obj) {return Tasks.instrumented(FillOutFormLocation.class);}
+    public FillOutFormLocation(String strCity, String strZip, String strCountry) {
+        this.strCity = strCity;
+        this.strZip = strZip;
+        this.strCountry = strCountry;
+    }
+    public static FillOutFormLocation TheFormTwo( String strCity, String strZip,
+                                                   String strCountry)
+    {return Tasks.instrumented(FillOutFormLocation.class, strCity, strZip, strCountry);}
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Enter.theValue("IngreseSuCiudad").into(SecondForm.CITY),
-                Enter.theValue("IngreseCodigoPostal").into(SecondForm.ZIP),
-                Enter.theValue("IngreseSuCiudad").into(SecondForm.COUNTRY),
-                Click.on(SecondForm.BUTTON_NEXT_DEVICES));
+        actor.attemptsTo(Enter.theValue(strCity).into(SecondForm.CITY),
+                Enter.theValue(strZip).into(SecondForm.ZIP));
+                //Click.on(SecondForm.COUNTRYCLICK));
+        actor.attemptsTo(Enter.theValue(strCountry).into(SecondForm.COUNTRY));
+        actor.attemptsTo(Click.on(SecondForm.BUTTON_NEXT_DEVICES));
     }
 }

@@ -1,4 +1,4 @@
-stepdefinitions/AutomationTestStepDefinitions.java
- stepdefinitions.AutomationTestStepDefinitions
 runners/RunnerTags.java
  runners.RunnerTags
+stepdefinitions/AutomationTestStepDefinitions.java
+ stepdefinitions.AutomationTestStepDefinitions

@@ -1,4 +1,16 @@
 tasks/OpenUp.java
  tasks.OpenUp
+userinterface/AutomationTestClickJoinToday.java
+ userinterface.AutomationTestClickJoinToday
+model/UtestData.java
+ model.UtestData
 userinterface/UtestPage.java
  userinterface.UtestPage
+userinterface/FirstForm.java
+ userinterface.FirstForm
+tasks/FillOutForm.java
+ tasks.FillOutForm
+userinterface/SecondForm.java
+ userinterface.SecondForm
+tasks/FillOutFormLocation.java
+ tasks.FillOutFormLocation
