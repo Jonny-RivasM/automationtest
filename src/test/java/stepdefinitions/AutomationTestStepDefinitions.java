@@ -7,9 +7,8 @@ import cucumber.api.java.en.When;
 import model.UtestData;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import tasks.FillOutForm;
-import tasks.FillOutFormLocation;
-import tasks.OpenUp;
+import tasks.*;
+
 import java.util.List;
 
 public class AutomationTestStepDefinitions {
@@ -30,6 +29,12 @@ public class AutomationTestStepDefinitions {
 
         OnStage.theActorInTheSpotlight().attemptsTo(FillOutFormLocation.TheFormTwo(utestData.get(0).getStrCity(),
                 utestData.get(0).getStrZip(), utestData.get(0).getStrCountry()));
+
+        OnStage.theActorInTheSpotlight().attemptsTo(FillOutFormDevices.TheFromTree(utestData.get(0).getStrComputer(),
+                utestData.get(0).getStrVersion(), utestData.get(0).getStrLanguageComputer()));
+
+        OnStage.theActorInTheSpotlight().attemptsTo(FillOutFormComplete.TheFormFour(utestData.get(0).getStrPassword(),
+                utestData.get(0).getStrConfirmPassword()));
     }
 
     @Then("^he can fill out the form and after register, he redirects to welcome page$")

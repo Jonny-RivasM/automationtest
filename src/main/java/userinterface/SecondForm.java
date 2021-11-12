@@ -11,10 +11,10 @@ public class SecondForm extends PageObject {
             .the("Where do we write the zip").located(By.id("zip"));
     public static final Target COUNTRYCLICK = Target
             .the("Where do we write the country")
-            .located(By.xpath("//span[@class='ui-select-match-text pull-left']"));
+            .located(By.xpath("//span[@aria-label='Select a country']"));
     public static final Target COUNTRY = Target
             .the("Where do we write the country")
-            .located(By.xpath("//div[@class='ui-select-container ui-select-bootstrap dropdown ng-not-empty ng-valid ng-valid-required auto-detected open direction-up']"));
+            .located(By.xpath("//input[@placeholder='Select a country']"));
     public static final Target BUTTON_NEXT_DEVICES = Target.the("Go to devices")
             .located(By.xpath("//a[@class='btn btn-blue pull-right']"));
 }

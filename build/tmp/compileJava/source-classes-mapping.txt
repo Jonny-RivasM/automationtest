@@ -1,16 +1,24 @@
 tasks/OpenUp.java
  tasks.OpenUp
-userinterface/AutomationTestClickJoinToday.java
- userinterface.AutomationTestClickJoinToday
 model/UtestData.java
  model.UtestData
+userinterface/AutomationTestClickJoinToday.java
+ userinterface.AutomationTestClickJoinToday
 userinterface/UtestPage.java
  userinterface.UtestPage
-userinterface/FirstForm.java
- userinterface.FirstForm
-tasks/FillOutForm.java
- tasks.FillOutForm
 userinterface/SecondForm.java
  userinterface.SecondForm
+tasks/FillOutForm.java
+ tasks.FillOutForm
+userinterface/FirstForm.java
+ userinterface.FirstForm
+tasks/FillOutFormDevices.java
+ tasks.FillOutFormDevices
+userinterface/ThreeForm.java
+ userinterface.ThreeForm
 tasks/FillOutFormLocation.java
  tasks.FillOutFormLocation
+userinterface/FourForm.java
+ userinterface.FourForm
+tasks/FillOutFormComplete.java
+ tasks.FillOutFormComplete

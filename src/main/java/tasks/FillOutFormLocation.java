@@ -5,7 +5,6 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.actions.SelectFromOptions;
 import userinterface.SecondForm;
 
 public class FillOutFormLocation implements Task {
@@ -26,8 +25,8 @@ public class FillOutFormLocation implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Enter.theValue(strCity).into(SecondForm.CITY),
-                Enter.theValue(strZip).into(SecondForm.ZIP));
-                //Click.on(SecondForm.COUNTRYCLICK));
+                Enter.theValue(strZip).into(SecondForm.ZIP),
+                Click.on(SecondForm.COUNTRYCLICK));
         actor.attemptsTo(Enter.theValue(strCountry).into(SecondForm.COUNTRY));
         actor.attemptsTo(Click.on(SecondForm.BUTTON_NEXT_DEVICES));
     }

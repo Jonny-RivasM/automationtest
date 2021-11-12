@@ -45,9 +45,9 @@ public class FillOutForm implements Task{
                 Enter.theValue(strEmail).into(FirstForm.EMAIL),
                 SelectFromOptions.byVisibleText(strBirthMonth).from(FirstForm.BIRTHMONTH),
                 SelectFromOptions.byVisibleText(strBirthDay).from(FirstForm.BIRTHDAY),
-                SelectFromOptions.byVisibleText(strBirthYear).from(FirstForm.BIRTHYEAR));
-                //Enter.theValue(strLanguages).into(FirstForm.LANGUAGES));
-
+                SelectFromOptions.byVisibleText(strBirthYear).from(FirstForm.BIRTHYEAR),
+                Click.on(FirstForm.LANGUAGESCLICK));
+        actor.attemptsTo(Enter.theValue(strLanguages).into(FirstForm.LANGUAGES));
         actor.attemptsTo(Click.on(FirstForm.NEXT_LOCATION));
     }
 
