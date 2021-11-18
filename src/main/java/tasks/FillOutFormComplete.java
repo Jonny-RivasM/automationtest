@@ -32,5 +32,6 @@ public class FillOutFormComplete implements Task {
                 Click.on(FourForm.CHECKBOXSTAYINFO),
                 Click.on(FourForm.CHECKBOXCONDUCT),
                 Click.on(FourForm.CheCKBOXPSP));
+        actor.attemptsTo(Click.on(FourForm.COMPLETE_SETUP));
     }
 }

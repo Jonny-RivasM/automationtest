@@ -18,6 +18,8 @@ userinterface/ThreeForm.java
  userinterface.ThreeForm
 tasks/FillOutFormLocation.java
  tasks.FillOutFormLocation
+questions/Answer.java
+ questions.Answer
 userinterface/FourForm.java
  userinterface.FourForm
 tasks/FillOutFormComplete.java

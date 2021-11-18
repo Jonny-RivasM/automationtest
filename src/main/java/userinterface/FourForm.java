@@ -18,6 +18,10 @@ public class FourForm extends PageObject {
             .located(By.name("newsletterOptIn"));
     public static final Target CHECKBOXCONDUCT = Target.the("")
             .located(By.name("termOfUse"));
-    public static Target CheCKBOXPSP = Target.the("")
+    public static final Target CheCKBOXPSP = Target.the("")
             .located(By.name("privacySetting"));
+    public static final Target COMPLETE_SETUP = Target.the("")
+            .located(By.id("laddaBtn"));
+    public static final Target TEXT_WELCOME = Target.the("")
+            .located(By.xpath("//*[text()[contains(., \"Welcome to the world's largest community of freelance software testers!\")]]"));
 }
