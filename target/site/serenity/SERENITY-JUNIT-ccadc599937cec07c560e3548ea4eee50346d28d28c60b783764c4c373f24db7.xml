@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="utest Page" skipped="1" tests="1" time="0.59" timestamp="2021-11-01 11:42:27"><testcase name="Create an account on utestcom"><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="utest Page" skipped="0" tests="1" time="50.21" timestamp="2021-11-18 09:57:07"><testcase name="Create an account on utestcom"/></testsuite>

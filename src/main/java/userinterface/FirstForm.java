@@ -17,9 +17,14 @@ public class FirstForm extends PageObject {
             .the("What bay were you born").located(By.id("birthDay"));
     public static final Target BIRTHYEAR = Target
             .the("What year were you born").located(By.id("birthYear"));
+    public static final Target LANGUAGESCLICK = Target
+            .the("What year were you born")
+            .located(By.id("languages"));
     public static final Target LANGUAGES = Target
-            .the("What year were you born").located(By.id("languages"));
+            .the("What year were you born")
+            .located(By.xpath("//input[@aria-label='Select box']"));
     public static final Target NEXT_LOCATION = Target
             .the("Go to location")
-            .located(By.xpath("//div[@class='btn btn-blue']//strong[contains(text(),'Next: Location')]"));
+            .located(By.xpath("//a[@class='btn btn-blue']"));
 }
+//
